@@ -1,0 +1,41 @@
+PODS:
+  - IBMSwiftCircuitBreaker (5.0.3):
+    - LoggerAPI (~> 1.7)
+  - LoggerAPI (1.9.200):
+    - Logging (~> 1.1)
+  - Logging (1.4.0)
+  - Matft (0.2.7)
+  - SwiftyRequest (2.2.1):
+    - IBMSwiftCircuitBreaker (~> 5.0)
+    - LoggerAPI (~> 1.7)
+  - TensorFlowLiteC (2.1.0)
+  - TensorFlowLiteSwift (2.1.0):
+    - TensorFlowLiteC (= 2.1.0)
+
+DEPENDENCIES:
+  - Matft
+  - SwiftyRequest (~> 2.2)
+  - TensorFlowLiteSwift
+
+SPEC REPOS:
+  trunk:
+    - IBMSwiftCircuitBreaker
+    - LoggerAPI
+    - Logging
+    - Matft
+    - SwiftyRequest
+    - TensorFlowLiteC
+    - TensorFlowLiteSwift
+
+SPEC CHECKSUMS:
+  IBMSwiftCircuitBreaker: 300d1d56e6cbe9f1159e4d5ce202d9bb11295272
+  LoggerAPI: ad9c4a6f1e32f518fdb43a1347ac14d765ab5e3d
+  Logging: beeb016c9c80cf77042d62e83495816847ef108b
+  Matft: 81bb58cb12ace8a3b829678c595f88daba88d169
+  SwiftyRequest: 8e84cd4839fe2429285fe60a5812b5634a8ecb83
+  TensorFlowLiteC: 215603d4426d93810eace5947e317389554a4b66
+  TensorFlowLiteSwift: 9d8137f18d5ac30ca89bba4fbe118e0949ac5743
+
+PODFILE CHECKSUM: 70ee7f11b743861fddc0063664637f3fc88178a8
+
+COCOAPODS: 1.10.1
